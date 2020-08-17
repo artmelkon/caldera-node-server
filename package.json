@@ -1,0 +1,23 @@
+{
+  "name": "caldera-node-serve4r",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "Arthur Malkonyan",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chokidar": "^3.4.2",
+    "express": "^4.17.1",
+    "jsonfile": "^6.0.1"
+  }
+}
